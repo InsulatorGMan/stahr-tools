@@ -82,6 +82,12 @@ exports.NumberTools = {
 
         return Math.pow(num, power);
 
+    },
+
+    RandomInteger: function(min, max) {
+
+        return Math.floor(min, max) * 10
+
     }
 
 }
@@ -133,5 +139,30 @@ exports.ArrayTools = {
     }
 
 }
+
+exports.ShapeTools = {
+
+    Prism : function (height, width, length) {
+
+      return height * width * length;
+
+    },
+    Cylinder:  function (radius, height) {
+
+      return Math.PI * Math.pow(radius, 2) * height;
+
+    },
+    Sphere : function (radius) {
+
+      return (4 / 3) * Math.PI * Math.pow(radius, 3);
+      
+    },
+    Cone : function (radius, height) {
+
+      return (1 / 3) * Math.PI * Math.pow(radius, 2) * height;
+
+    },
+}
+
 
 // Path: index.js
