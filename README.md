@@ -1,6 +1,6 @@
 # Stahr Tools
 
-This is a collection of functions that I use in my projects. I ha>
+This is a collection of functions that I use in my projects. I have been using them for a while and I decided to put them in a separate package.
 I hope you find them useful.
 
 ## Array Functions
@@ -10,7 +10,7 @@ Returns a random item from the array.
 
 ### `ArrayTools.GetRandomItems(array, count)`
 
-Returns an array of random items from the array. The number of it>
+Returns an array of random items from the array. The number of items returned is determined by the `count` parameter.
 
 ### `ArrayTools.ReverseArray(array)`
 
@@ -25,7 +25,6 @@ Shuffles the items in the array.
 Sorts the items in the array.
 
 ## Number Functions
-
 
 ### `NumberTools.Add(number, number)`
 
@@ -85,4 +84,4 @@ const { GetRandomItem, GetRandomItems } = require('stahr-tools');
 
 # Contributing
 
-Pull requests are welcome. For major changes, please open an issue
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

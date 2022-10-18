@@ -1,0 +1,26 @@
+{
+  "name": "stahr-tools",
+  "version": "1.2.0",
+  "description": "A simple lightweight package for array manipulation, string tools, and advanced math for Node.js",
+  "main": "release.min.js",
+  "keywords": [
+    "array",
+    "string",
+    "math",
+    "tools",
+    "node",
+    "nodejs",
+    "javascript",
+    "js",
+    "npm",
+    "package",
+    "module",
+    "library",
+    "functions",
+    "stahr",
+    "stahr-tools",
+    "stahrtools"
+  ],
+  "author": "grantstahr",
+  "license": "ISC"
+}
