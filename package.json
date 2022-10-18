@@ -1,6 +1,6 @@
 {
   "name": "stahr-tools",
-  "version": "1.2.0",
+  "version": "1.3.1",
   "description": "A simple lightweight package for array manipulation, string tools, and advanced math for Node.js",
   "main": "release.min.js",
   "keywords": [
@@ -19,7 +19,11 @@
     "functions",
     "stahr",
     "stahr-tools",
-    "stahrtools"
+    "stahrtools",
+    "area",
+    "volume",
+    "perimeter",
+    "3d"
   ],
   "author": "grantstahr",
   "license": "ISC"
