@@ -1,5 +1,13 @@
 # Stahr Tools
 
+## New to 1.4.1 (2022-10-20)
+```diff
++ Added: `WaitAsync` function
+- Removed: Testing functions
+= Github Repo listed at the bottom of the README
+```
+
+
 This is a collection of functions that I use in my projects. I have been using them for a while and I decided to put them in a separate package.
 I hope you find them useful.
 
