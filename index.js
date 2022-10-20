@@ -1,22 +1,6 @@
-// Developer Functions (to make sure the module is working)
-
-exports.TestFunction = function() {
-
-    return 'Module is working!';
-
-};
-
-exports.Version = function() {
-
-    return '1.0.0';
-
-};
-
-exports.Author = function() {
-
-    return 'Grant Stahr';
-
-};
+exports.WaitAsync = async function(ms) {
+    await new Promise(resolve => setTimeout(resolve, ms));
+}
 
 exports.StringTools = {
 
